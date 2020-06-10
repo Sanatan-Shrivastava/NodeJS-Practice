@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-env",
+  "version": "1.0.0",
+  "description": "Crash Course Node.JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanatan-Shrivastava/NodeJS-Env.git"
+  },
+  "keywords": [
+    "Sanatan",
+    "Shrivastava"
+  ],
+  "author": "Sanatan Shrivastava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanatan-Shrivastava/NodeJS-Env/issues"
+  },
+  "homepage": "https://github.com/Sanatan-Shrivastava/NodeJS-Env#readme",
+  "dependencies": {
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
